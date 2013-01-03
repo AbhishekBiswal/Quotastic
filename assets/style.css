@@ -1,0 +1,108 @@
+* { margin: 0; padding: 0; }
+body
+{
+	font-family: "Droid Serif", "Segoe UI", Arial, sans-serif;
+	font-size: 62.5%;
+	color: #f5f5f5;
+	text-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+	background: #26b;
+	background-image: #22517e;
+	background-image: -webkit-radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
+	background-image: -moz-radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
+	background-image: -o-radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
+	background-image: -ms-radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
+	background-image: radial-gradient(50% 50%, circle closest-corner, #2775C2 0%, #113b63 100%);
+}
+
+a
+{
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+.head
+{
+	width: 100%;
+	height: 100px;
+	background: transparent url('logo.png') no-repeat;
+	background-position: 50%;
+}
+
+.footer
+{
+	text-align: center;
+	position: absolute;
+	display: block;
+	width: 100%;
+	bottom: 0;
+	font-size: 1.2em;
+	padding: 10px 0;
+	line-height: 1.2;
+}
+.footer div
+{
+	padding: 5px 0;
+}
+
+.quote
+{
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 10%;
+	background: transparent;
+}
+.q-body
+{
+	font-size: 4em;
+	text-align: center;
+}
+.q-by
+{
+	text-align: right;
+	font-size: 2em;
+}
+.q-extra p
+{
+	text-align: right;
+}
+
+/* Controls */
+.controls
+{
+	width: 50%;
+	margin: 0 auto;
+}
+.controls a
+{
+	position: absolute;
+}
+.controls .random
+{
+	background: url('img.png') no-repeat -1px -3px;
+	width: 69px;
+	height: 61px;
+	opacity: 0.8;
+	transition: margin 0.3s, opacity 0.3s;
+	-moz-transition: margin 0.3s, opacity 0.3s;
+	-webkit-transition: margin 0.3s, opacity 0.3s;
+	-ms-transition: margin 0.3s, opacity 0.3s;
+	-o-transition: margin 0.3s, opacity 0.3s;
+}
+.controls .random:hover
+{
+	margin-top: -10px;
+	opacity: 1;
+}
+
+h1.no-quote
+{
+	text-align: center;
+	font-size: 3em;
+}
+
+.share
+{
+	display: block;
+	margin-top: 70px;
+}
